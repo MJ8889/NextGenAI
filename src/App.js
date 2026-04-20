@@ -53,8 +53,8 @@ export default function NextGenMakers() {
 
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="lg:w-1/2 relative">
           <div className="bg-white/40 backdrop-blur-3xl p-4 rounded-[4rem] border-4 border-white shadow-2xl overflow-hidden">
-            {/* YOUR HERO IMAGE HERE */}
-            <img src="/hero-robot.jpg" alt="AI Robot Teaching" className="rounded-[3rem] w-full aspect-[4/3] object-cover" />
+            {/* FIXED HERO IMAGE LINK */}
+            <img src="/hero-robot.jpg.png" alt="AI Robot Teaching" className="rounded-[3rem] w-full aspect-[4/3] object-cover" />
           </div>
         </motion.div>
       </header>
@@ -103,8 +103,8 @@ export default function NextGenMakers() {
           </div>
           <div className="lg:w-1/2">
              <div className="h-[600px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white/10">
-                {/* YOUR VENUE IMAGE HERE */}
-                <img src="/maker-space.jpg" className="w-full h-full object-cover" alt="Kids in Maker Space" />
+                {/* FIXED VENUE IMAGE LINK */}
+                <img src="/maker-space.png" className="w-full h-full object-cover" alt="Kids in Maker Space" />
              </div>
           </div>
         </div>
@@ -182,8 +182,8 @@ export default function NextGenMakers() {
           </div>
           
           <div className="order-1 lg:order-2 rounded-[4rem] overflow-hidden shadow-2xl h-[600px]">
-             {/* YOUR SHOWCASE IMAGE HERE */}
-             <img src="/kids-learning.webp" className="w-full h-full object-cover" alt="Students building robots" />
+             {/* FIXED SHOWCASE IMAGE LINK */}
+             <img src="/kids-learning.webp.webp" className="w-full h-full object-cover" alt="Students building robots" />
           </div>
         </div>
       </section>
