@@ -53,7 +53,9 @@ export default function NextGenMakers() {
 
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="lg:w-1/2 relative">
           <div className="bg-white/40 backdrop-blur-3xl p-4 rounded-[4rem] border-4 border-white shadow-2xl overflow-hidden">
-            <img src="/hero-robot.jpg.png" alt="Robot Kiko" className="w-full h-full object-cover drop-shadow-2xl" />
+            {/* YOUR HERO IMAGE HERE */}
+            <img src="/hero-robot.jpg" alt="AI Robot Teaching" className="rounded-[3rem] w-full aspect-[4/3] object-cover" />
+          </div>
         </motion.div>
       </header>
 
@@ -101,7 +103,9 @@ export default function NextGenMakers() {
           </div>
           <div className="lg:w-1/2">
              <div className="h-[600px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white/10">
+                {/* YOUR VENUE IMAGE HERE */}
                 <img src="/maker-space.jpg" className="w-full h-full object-cover" alt="Kids in Maker Space" />
+             </div>
           </div>
         </div>
       </section>
@@ -126,7 +130,9 @@ export default function NextGenMakers() {
       <section id="kits" className="py-32 px-10 bg-[#F0F9FF] relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-20">
           <div className="lg:w-1/2 bg-white p-4 rounded-[4rem] shadow-2xl border-4 border-blue-50">
-             <img src="/kids-learning.webp" className="w-full h-full object-cover" alt="Students Presenting" />
+             {/* TEMPORARY PLACEHOLDER UNTIL YOU UPLOAD A KIT IMAGE */}
+             <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=1000&auto=format&fit=crop" alt="Robot Kits" className="rounded-[3rem] w-full" />
+          </div>
           <div className="lg:w-1/2">
             <h2 className="text-5xl font-black mb-6">Kidzlabs & <br/><span className="text-[#00A3FF]">Premium Robot Kits</span></h2>
             <p className="text-xl text-[#475569] leading-relaxed mb-10">
@@ -153,29 +159,31 @@ export default function NextGenMakers() {
       </section>
 
       {/* 8. CONFIDENCE BUILDING */}
-      <section id="confidence" className="py-32 px-10 max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-20">
-          <h2 className="text-5xl font-black text-[#1E293B]">Building <span className="text-[#A855F7]">Confidence</span></h2>
-          <p className="text-xl text-[#64748B] mt-4 font-medium max-w-3xl mx-auto">Technical skills are only half the equation. We cultivate leaders who can present their ideas and perform under pressure.</p>
-        </div>
+      <section id="confidence" className="py-32 px-10 max-w-7xl mx-auto relative z-10 text-center">
+        <h2 className="text-5xl font-black text-[#1E293B] mb-20">Building <span className="text-[#A855F7]">Confidence</span></h2>
         
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-[#00A3FF]">
-            <Presentation className="text-[#00A3FF] mb-6" size={48} />
-            <h3 className="text-2xl font-black mb-4">Capstone Presentations</h3>
-            <p className="text-[#64748B] leading-relaxed">At the end of every term, students step onto the stage to pitch their final project. They explain the problem they solved, the code logic they wrote, and their design process.</p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center text-left">
+          <div className="order-2 lg:order-1 space-y-8">
+            <div className="bg-white p-8 rounded-3xl shadow-xl border-l-8 border-[#00A3FF]">
+              <Presentation className="text-[#00A3FF] mb-4" size={32} />
+              <h3 className="text-xl font-black mb-2">Capstone Presentations</h3>
+              <p className="text-[#64748B]">Students step onto the stage to pitch their final project. They explain the problem they solved and their design process.</p>
+            </div>
+            <div className="bg-white p-8 rounded-3xl shadow-xl border-l-8 border-[#FFD600]">
+              <Award className="text-[#FFB800]" size={32} />
+              <h3 className="text-xl font-black mb-2">Student Demonstrations</h3>
+              <p className="text-[#64748B]">Your child becomes the teacher, walking you through how their robot functions on our interactive demo days.</p>
+            </div>
+            <div className="bg-white p-8 rounded-3xl shadow-xl border-l-8 border-[#EF4444]">
+              <Swords className="text-[#EF4444]" size={32} />
+              <h3 className="text-xl font-black mb-2">Mini Battlebot Tournaments</h3>
+              <p className="text-[#64748B]">Students design, reinforce, and pilot custom rovers in our arena to learn engineering resilience.</p>
+            </div>
           </div>
-
-          <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-[#FFD600]">
-            <Award className="text-[#FFB800]" size={48} />
-            <h3 className="text-2xl font-black mb-4">Student Demonstrations</h3>
-            <p className="text-[#64748B] leading-relaxed">Parents are invited to interactive demo days. Your child becomes the teacher, walking you through how their robot functions and demonstrating their newly acquired expertise.</p>
-          </div>
-
-          <div className="bg-white p-10 rounded-[3rem] shadow-xl border-t-8 border-[#EF4444]">
-            <Swords className="text-[#EF4444] mb-6" size={48} />
-            <h3 className="text-2xl font-black mb-4">Mini Battlebot Tournaments</h3>
-            <p className="text-[#64748B] leading-relaxed">Friendly competition accelerates learning. Students design, reinforce, and pilot custom rovers in our arena to learn engineering resilience and good sportsmanship.</p>
+          
+          <div className="order-1 lg:order-2 rounded-[4rem] overflow-hidden shadow-2xl h-[600px]">
+             {/* YOUR SHOWCASE IMAGE HERE */}
+             <img src="/kids-learning.webp" className="w-full h-full object-cover" alt="Students building robots" />
           </div>
         </div>
       </section>
@@ -234,7 +242,6 @@ export default function NextGenMakers() {
           onClick={() => setShowChat(!showChat)}
           className="w-16 h-16 bg-[#1E293B] hover:bg-[#00A3FF] text-white rounded-full flex items-center justify-center shadow-2xl transition-all hover:scale-110 active:scale-95 ml-auto relative"
         >
-          {/* Notification Dot */}
           {!showChat && <span className="absolute top-0 right-0 w-4 h-4 bg-red-500 border-2 border-white rounded-full"></span>}
           <MessageCircle size={28} />
         </button>
