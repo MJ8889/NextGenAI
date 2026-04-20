@@ -53,8 +53,7 @@ export default function NextGenMakers() {
 
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="lg:w-1/2 relative">
           <div className="bg-white/40 backdrop-blur-3xl p-4 rounded-[4rem] border-4 border-white shadow-2xl overflow-hidden">
-            <img src="http:Gemini_Generated_Image_yvzz2jyvzz2jyvzz.png" alt="Makerspace Venue" className="rounded-[3rem] w-full aspect-[4/3] object-cover" />
-          </div>
+            <img src="/hero-robot.jpg.png" alt="Robot Kiko" className="w-full h-full object-cover drop-shadow-2xl" />
         </motion.div>
       </header>
 
@@ -102,8 +101,7 @@ export default function NextGenMakers() {
           </div>
           <div className="lg:w-1/2">
              <div className="h-[600px] rounded-[3rem] overflow-hidden shadow-2xl border-4 border-white/10">
-                <img src="http://googleusercontent.com/image_collection/image_retrieval/6141935021675517675" className="w-full h-full object-cover" alt="Kids in Maker Space" />
-             </div>
+                <img src="/maker-space.jpg" className="w-full h-full object-cover" alt="Kids in Maker Space" />
           </div>
         </div>
       </section>
@@ -128,8 +126,7 @@ export default function NextGenMakers() {
       <section id="kits" className="py-32 px-10 bg-[#F0F9FF] relative z-10">
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-20">
           <div className="lg:w-1/2 bg-white p-4 rounded-[4rem] shadow-2xl border-4 border-blue-50">
-             <img src="http://googleusercontent.com/image_collection/image_retrieval/10406837666654528291" alt="Robot Kits" className="rounded-[3rem] w-full" />
-          </div>
+             <img src="/kids-learning.webp" className="w-full h-full object-cover" alt="Students Presenting" />
           <div className="lg:w-1/2">
             <h2 className="text-5xl font-black mb-6">Kidzlabs & <br/><span className="text-[#00A3FF]">Premium Robot Kits</span></h2>
             <p className="text-xl text-[#475569] leading-relaxed mb-10">
