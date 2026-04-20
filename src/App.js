@@ -53,7 +53,7 @@ export default function NextGenMakers() {
 
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} className="lg:w-1/2 relative">
           <div className="bg-white/40 backdrop-blur-3xl p-4 rounded-[4rem] border-4 border-white shadow-2xl overflow-hidden">
-            <img src="http://googleusercontent.com/image_collection/image_retrieval/1117525149678991128" alt="Makerspace Venue" className="rounded-[3rem] w-full aspect-[4/3] object-cover" />
+            <img src="http:Gemini_Generated_Image_yvzz2jyvzz2jyvzz.png" alt="Makerspace Venue" className="rounded-[3rem] w-full aspect-[4/3] object-cover" />
           </div>
         </motion.div>
       </header>
